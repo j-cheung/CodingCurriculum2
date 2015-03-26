@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<meta name = "viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="jquery.fittext.js"></script>
+		
+		<title>Exercise 1</title>
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html">
+				<div id="logo">
+					<span>Coding Curriculum 1415</span>
+				</div>
+			</a>
+			<div id="nav">
+				<a href="tutorials.html">
+					<div class="navItem">
+						<span>Tutorials</span>
+					</div>
+				</a>
+				<a href="scheme.html">
+					<div class="navItem">
+						<span>About</span>
+					</div>
+				</a>
+			</div>
+		</header>
+
+		<div class="instructionContainer">
+			<div class="instructions">
+				<span>
+					<b>Exercise 1</b><br>
+					<br>
+					We're now going to use your newly developed skills to make a Force Calculator!.<br>
+					Let's just start with one of the famous Newton's Laws of Motion: F=ma!<br>
+					<br>
+					1. Create an action to calculate F, given m and a. (remember, use input and output parameters!)<br>
+					2. Repeat for m using F,a<br>
+					3. Repeat for a using F,m<br>
+					4a. In the main action, make it interactive<br>
+					4b. Ask the user if they want to calculate Force, Mass, or Acceleration<br>
+					4c. Then ask for each input, and show them the answer!<br>
+					<br>
+
+				</span>
+			</div>
+			<div class="markscheme">
+				<iframe class="result" src="http://tdev.ly/kvuxc"></iframe>
+				
+			</div>
+		</div>
+		<a href="https://www.touchdevelop.com/app/">
+			<div class="linkToTD">
+				<span>LAUNCH ON TOUCHDEVELOP</span>
+			</div>
+		</a>
+		<script>
+			jQuery('#logo').fitText(1.5);
+			jQuery('#startButton').fitText(1.3);
+			jQuery('.instructions').fitText(1.3, {maxFontSize: '23px'});
+			jQuery('.linkToTD').fitText(1.7, {minFontSize:'10px'});
+
+		</script>
+
+	</body>
+</html>	

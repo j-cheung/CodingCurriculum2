@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<meta name = "viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="jquery.fittext.js"></script>
+		
+		<title>About</title>
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html">
+				<div id="logo">
+					<span>Coding Curriculum 1415</span>
+				</div>
+			</a>
+			<div id="nav">
+				<a href="tutorials.html">
+					<div class="navItem">
+						<span>Tutorials</span>
+					</div>
+				</a>
+				<a href="scheme.html">
+					<div class="navItem">
+						<span>About</span>
+					</div>
+				</a>
+			</div>
+		</header>
+
+		<div class="instructionContainer">
+			<div class="instructions">
+				<span>
+					<br>
+					<b>Title</b><br>
+					<br>
+					Touch Develop programming course for secondary school students.<br>
+					<br>
+
+					<b>Theme</b><br>
+					<br>
+					Coding exercises in conjunction with physics related topics.<br>
+					The aim of these learning exercises is to introduce students to the world of programming.  They will work with a language called touch develop whereby they will learn and eventually write basic code.  The programs they work with will implement some of the core principles associated with physics.<br>
+					<br>
+
+					<b>Scope</b><br>
+					<br>
+					The course will contain 12 exercises ranging from beginner exercises to intermediate level.  The purpose of this course is intended for students aged 11+.<br>
+					<br>
+
+					<b>Learning Outcomes</b><br>
+					<br>
+					1.	Understand the importance of programming and its uses<br>
+					2.	Confidently use the Touch Develop Programming language<br>
+					3.	Understand the key fundamental concepts of both programming and key stage 2/3 physics<br>
+					4.	Hopefully want to engage with programming further into their academics<br>
+					<br>
+				</span>
+			</div>
+			<div class="markscheme">
+				<span>
+
+					<b>Content</b><br>
+					<br>
+					Tutorials 1-11: The initial set of exercises and tutorials will cover the main programming concepts such as variables, loops and if statements.<br>
+					The next set of tutorials will integrate physics problems and take what students have learnt from the previous lessons.<br>
+					The final tutorials will elaborate on what students already know and use these skills for the more complex coding scenarios.<br>
+					Alongside the tutorials will be exercise questions for students to complete on their own or within a group for later assessment.<br>
+					<br>
+
+					<b>Resources Required</b><br>
+					<br>
+					Students will require a computing device (i.e. computer, phone, tablet etc.) with online connectivity.  They will need to access the Touch Develop Website and access the course accordingly.<br>
+					<br>
+					
+				</span>
+			</div>
+		</div>
+		<a href="tutorials.html">
+			<div class="schemeLink">
+				<span>START TUTORIALS</span>
+			</div>
+		</a>
+		<script>
+			jQuery('#logo').fitText(1.5);
+			jQuery('#startButton').fitText(1.3);
+			jQuery('.instructions').fitText(1.3, {maxFontSize: '23px'});
+			jQuery('.schemeLink').fitText(1.7, {minFontSize:'10px'});
+			jQuery('.markscheme').fitText(1.3, {maxFontSize: '23px'});
+
+		</script>
+
+	</body>
+</html>	
