@@ -164,6 +164,25 @@ header{
   	font-weight: 400;
 }
 
+.teacherNotes{
+	height: 100%;
+	width: 45%;
+	float: left;
+	color: #433f3f;
+	margin-left: 0;
+	margin-right: 0%;
+}
+
+.teacherNotes span{
+	display: inline-block;
+	position: relative;
+	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);	
+  	font-weight: 400;
+}
+
 .linkToTD{
 	margin-left: 10%;
 	width: 20%;
