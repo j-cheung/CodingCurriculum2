@@ -129,7 +129,7 @@ header{
 }
 
 .instructions{
-	height: 100%;
+	height: auto;
 	width: 50%;
 	float: left;
 	color: #433f3f;
